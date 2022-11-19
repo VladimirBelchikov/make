@@ -1,0 +1,40 @@
+{
+  "name": "make",
+  "version": "1.0.0",
+  "description": "make test project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development PORT=%npm_config_port% webpack serve"
+  },
+  "author": "Vladimir Belchikov",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "@squoosh/lib": "^0.4.0",
+    "babel-loader": "^9.1.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.7.2",
+    "eslint": "^8.28.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "image-minimizer-webpack-plugin": "^3.8.1",
+    "mini-css-extract-plugin": "^2.7.0",
+    "postcss": "^8.4.19",
+    "postcss-loader": "^7.0.1",
+    "postcss-preset-env": "^7.8.3",
+    "sass": "^1.56.1",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1",
+    "terser-webpack-plugin": "^5.3.6",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "browserslist": [
+    "defaults"
+  ]
+}
